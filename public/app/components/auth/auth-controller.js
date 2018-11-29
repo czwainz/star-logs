@@ -23,7 +23,7 @@ export default class AuthController {
   }
 
   login(event) {
-    event.preventDefault;
+    event.preventDefault();
     let creds = {
       email: event.target.email.value,
       password: event.target.password.value
